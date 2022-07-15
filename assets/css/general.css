@@ -1,0 +1,140 @@
+@font-face {
+    font-family: btitrb;
+    src: url('../fonts/B Titr Bold.ttf');
+}
+@font-face {
+    font-family: BNazanin;
+    src: url('../fonts/B Nazanin.ttf');
+}
+@font-face {
+    font-family: iransans;
+    src: url('../fonts/IRANSans.ttf');
+}
+@font-face {
+    font-family: bmitrab;
+    src: url('../fonts/B Mitra Bold.ttf');
+}
+@font-face {
+    font-family: bmitra;
+    src: url('../fonts/B Mitra.ttf');
+}
+.btitrb {
+    font-family: btitrb;
+}
+.iransans {
+    font-family: iransans;
+}
+.bmitrab {
+    font-family: bmitrab;
+}
+.bmitra {
+    font-family: bmitra;
+}
+.bnazanin {
+    font-family: BNazanin;
+}
+.calibri {
+    font-family: calibri;
+}
+.bold {
+    font-weight: bold;
+}
+.default-div {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.radio {
+    margin: 0 10px;
+    cursor: pointer;
+}
+.d-block {
+    display: block !important;
+}
+
+.table-btn {
+    background: linear-gradient(to bottom, #fa6161 0%, #d23f3f 100%);
+    color: #fff;
+    width: 100px;
+    margin: 10px;
+}
+.d-inline-block {
+    display: inline-block;
+}
+.order-table-heading {
+    background: linear-gradient(to bottom, #fa6161 0%, #d23f3f 100%);
+    margin-top: -1px;
+    color: #fff !important;
+}
+
+
+
+/* Manage Section */
+div.manage-section hr {
+    margin-top: 0;
+}
+figure.figure-in-manage-section {
+    display: inline-block;
+    margin: 0 12px 12px;
+    width: 100px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+figure.figure-in-manage-section:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+/* End of Manage Section */
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    font-family: BNazanin;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background: #fff;
+    margin-bottom: 60px;
+}
+nav {
+    background: linear-gradient(to bottom right, #FA6161 0%, #D23F3F 100%) !important;
+}
+nav a {
+    color: #eee !important;
+}
+nav ul.dropdown-menu a {
+    color: #333 !important;
+}
+
+
+/* Sticky Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    color: #fff !important;
+    background-color: #FA6161;
+}
+footer p {
+    direction: ltr !important;
+    font-family: Calibri;
+    margin: 20px 0;
+}
+/* End of Sticky Footer*/
+
+
+/* Print */
+@media print {
+    .not_in_print {
+        display: none;
+    }
+    table.finishing_table td, table.finishing_table th {
+        /*display: block;*/
+    }
+    footer {
+        display: none;
+    }
+}
