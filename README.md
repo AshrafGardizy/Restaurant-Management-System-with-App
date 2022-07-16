@@ -3,7 +3,7 @@
 This project is a Restaurant Management System with Mobile App which enables the restaurant owners, managers, employees to manage all the operations of a restaurant in easy and effective way. 
 
 
-**Technologies used for developing this project:
+## Technologies used for developing this project:
 
 
   1- Client Side: HTML, CSS, JavaScript
@@ -19,23 +19,28 @@ This project is a Restaurant Management System with Mobile App which enables the
   
   ## Usage:
   
-The waiter or waitress goes by his tablet on customers' tables. At first, the application shows all the tables with a white background which means the table is empty. All the tables are numbered and have shown in the system accordingly. When the waiter goes to table number one, it selects the table from the app and takes the order of customers. After getting the customer's order, the background of table number one changed to amber which means the table is full and already ordered. In the end, reception can print 2 copies of bill one for the customer and another for restaurant for payment.
+The waiter or waitress goes by his tablet on customers' tables. At first, the application shows all the tables with a white background which means the table is empty. All the tables are numbered and have shown in the system accordingly. When the waiter goes to table number one, it selects the table from the app and takes the order of customers. After getting the customer's order, the background of table number one changed to amber which means the table is full and already ordered. Each order goes to its own department which means if the order is a pizza it goes to pizza making section and shows the order in thier screen in a queue by order, if the order is coffee or tea it goes to the drink section. In the end, reception can print 2 copies of bill one for the customer and another for restaurant for payment.
   
   
  ## Main Functionalitis:
   
   
-  **Addmin Can:** Branch Management (add, update, delete) Employees Management (add, update, delete), Transfer Management (Send or Receive Money) , Reporting (Monthly reporst based on multiple branches, one branch or send or recieve).
+  **Addmin Can:** Login, Food Categories Management (add, update, delete), Menu Management (add, update, delete), Tables Managment(add, update, delete) Employees Management (add, update, delete), section Management (add, update, delete) , Expenses Management (add, update, delete) and Reporting.
   
-  **Employees Can:** Login, Send Money, Recieve Money, See the list of sent and recieve, change profile info.
+  **Waiter or Waitress Can:** Login, Oreder Management (Take Order, Update Order, Delete Order), Profile Managemet, 
+  
   
   **Database Tables:**
   
-  1- branches
+  1- admins
   
-  2- employees
+  2- categories
   
-  3- exchanges
+  3- expenses
+  
+  4- foods
+  
+  5- orders
   
   
   if you need the sql file of database please drop an email to ashrafgardizy@gmail.com
@@ -53,5 +58,7 @@ Please follow the following steps for installation of this project:
 **Step 5:** Unzip the source code of the project in htdocs folder of the XAMPP.
 
 **Step 6:** Create a database according to Connection file of the project.
+
+**Step 7:** Open your browser type the http://localhost/your_project_name
 
 *Sincerely Regards*
