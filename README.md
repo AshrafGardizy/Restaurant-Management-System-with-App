@@ -17,6 +17,10 @@ This project is a Restaurant Management System with Mobile App which enables the
   
   4- Framework: CodeIgniter 
   
+  ## Usage:
+  
+The waiter or waitress goes by his tablet on customers' tables. At first, the application shows all the tables with a white background which means the table is empty. All the tables are numbered and have shown in the system accordingly. When the waiter goes to table number one, it selects the table from the app and takes the order of customers. After getting the customer's order, the background of table number one changed to amber which means the table is full and already ordered. In the end, reception can print 2 copies of bill one for the customer and another for restaurant for payment.
+  
   
  ## Main Functionalitis:
   
